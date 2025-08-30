@@ -28,7 +28,7 @@ Como desafio extra, adicionei novas funcionalidades e um **menu de navegação**
 
 ## 📸 Resultado
 ### Tela inicial:
-![Imagem do projeto](https://github.com/JuniorTeodoro89/dev-sorteio/blob/master/Assets/Dev-Sorteio.png?raw=true)
+![Imagem do projeto](https://github.com/JuniorTeodoro89/dev-sorteio/blob/main/assets/Dev-Sorteio.png?raw=true)
 
 Você pode acessar o projeto completo clicando aqui 👉 [**Acessar Projeto**](https://juniorteodoro89.github.io/dev-sorteio/)
 
