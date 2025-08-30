@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>DevSorteio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button class="menu">Básico</button>
+            <button class="menu">Mega Sena</button>
+            <button class="menu">Loto Fácil</button>
+            <button class="menu">Nomes</button>
+        </nav>
+        <img src="./assets/logo_1.png" alt="img-logo" class="logo">
+    </header>
+    <main>
+        <section id="basico" class="section">
+            <h2>Sortear um número</h2>
+            <div class="container-result">
+                <p class="result"></p>
+            </div>
+            <div class="container-input">
+                <input type="number" step="1" id="first-input" placeholder="De">
+                <input type="number" step="1" id="second-input" placeholder="Até">
+            </div>
+            <button class="lucky-button">Sortear</button>
+        </section>
+
+        <section id="mega-sena" class="section" style="display: none;">
+            <h2>Mega Sena</h2>
+            <p class="mega-result"></p>
+            <button class="lucky-mega">Sortear</button>
+        </section>
+
+        <section id="loto-facil" class="section" style="display: none;">
+            <h2>Loto Fácil</h2>
+            <p class="loto-result"></p>
+            <button class="lucky-loto">Sortear</button>
+        </section>
+
+        <section id="names" class="section" style="display: none;">
+            <h2>Sorteador de Nomes</h2>
+            <p class="name-result"></p>
+            <textarea id="name-list" placeholder="Digite um nome por linha"></textarea>
+            <button class="lucky-name">Sortear</button>
+        </section>
+    </main>
+    <footer>Feito com ❤︎ por Júnior Teodoro</footer>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
